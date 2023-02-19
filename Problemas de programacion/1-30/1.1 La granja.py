@@ -1,5 +1,3 @@
-
-print("prueba")
 def L_leche(v, n, m, y, x):
     # v = cantidad de vacas
     # n = ancho de corral
