@@ -1,6 +1,6 @@
 def divisible(x,y):
     """funcion que determine si un n ́umero es divisible por otro."""
-    
+
     c = x%y #operador modulo, devuelve el residuo de la division
 
     if c == 0 :
