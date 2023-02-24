@@ -15,10 +15,10 @@ def primo(n):
         if contador > 2:
             # si el numero tiene mas de dos divisores no es primo
             return f"el numero {n} NO es primo"
-        
+
     return f"el numero {n} es primo"
-    
-a = int(input("ingrese un numero:"))
+
+a = int(input("ingrese un numero: "))
 
 x = primo(a)
 
