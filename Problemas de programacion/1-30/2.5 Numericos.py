@@ -1,6 +1,6 @@
 def potencia(N, E):
     """potencia de un entero elevado a un entero"""
-    
+
     p = 1
 
     if E == 0:
