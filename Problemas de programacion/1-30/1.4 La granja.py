@@ -1,3 +1,17 @@
+"""
+OC: Sean P,Q,S,N,M numeros enteros donde
+    P: Valor alambre de puas por metro
+    Q: Valor tablas por metro
+    S: Valor varillas por metro
+    N: Largo de cerca
+    M: Ancho de cerca
+OD: Sea L un string
+R: P,Q,S,N,M -> L
+    L = "puas" si (2N+2M)*P*5 < (2N+2M)*Q*4 y (2N+2M)*P*5 < (2N+2M)*S*8
+    L = "tabla" si (2N+2M)*Q*4 < (2N+2M)*P*5 y (2N+2M)*Q*4 < (2N+2M)*S*8
+    L = "varilla" si (2N+2M)*S*8 < (2N+2M)*P*5 y (2N+2M)*S*8 < (2N+2M)*Q*4
+"""
+
 def Cercado(P,Q,S,N,M):
     #calcular perimetro de cerca con N+N+M+M
     per= 2*N+2*M

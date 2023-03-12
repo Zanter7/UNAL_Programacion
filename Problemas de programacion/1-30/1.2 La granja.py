@@ -1,3 +1,9 @@
+"""
+OC: Sea A (Aves) un numero natural
+OD: Sea t un numero natural que represente el total de huevos en un mes
+R: t = ((A//3)//2*30//5) + ((A//3)//2*30//3)
+"""
+
 def huevos(A):
     # teniendo en cuenta que no puede haber fraccion de gallina
 

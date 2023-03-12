@@ -1,3 +1,10 @@
+"""
+OC: Sean X, Y enteros
+OD: Sea p booleano
+R: True Si X%y == o (operador modulo, residuo de division)
+   False en otro caso
+"""
+
 def divisible(x,y):
     """funcion que determine si un n ́umero es divisible por otro."""
 

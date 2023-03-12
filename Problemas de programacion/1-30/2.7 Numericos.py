@@ -1,3 +1,10 @@
+"""
+OC: Sea n un numero entero
+OD: Sea t un string
+R: t= "No es primo" si n tiene mas de 2 divisores
+      "Es primo" en otro caso
+"""
+
 def primo(n):
     p = 1 # variable que contendra divisiones de n/n hasta n/1
     d = 1  # variable que contendra divisiones de n//n hasta n//1
