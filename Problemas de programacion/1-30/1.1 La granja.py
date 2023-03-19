@@ -1,7 +1,7 @@
 """
 OC: Sean v,n,m,y,x numeros naturales
 OD: Sea l un string
-R: L: si: n*m//v < y = 'las vacas no tienen suficiente espacio para producir leche'
+R: L = 'las vacas no tienen suficiente espacio para producir leche' si n*m//v < y
    en otro caso: 'El total de leche es str(t) L'
 """
 

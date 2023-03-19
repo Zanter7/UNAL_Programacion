@@ -29,4 +29,4 @@ a = int(input("Ingrese un numero: "))
 
 z =esFibo(a)
 
-print("el numero ",a, " pertence a la sucesion de fibonacci?: ", z)
+print("el numero ",a, " pertenece a la sucesion de fibonacci?: ", z)
