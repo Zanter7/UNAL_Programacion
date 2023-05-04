@@ -10,10 +10,10 @@ R:  R1_Cx = m1(0)+b1
 """
 def rectas(m1,m2,b1,b2):
 
-    R1_Cx = m1*0+b1
-    R1_Cy = (-b1)/m1
-    R2_Cx = m2*0+b2
-    R2_Cy = (-b2)/m2
+    R1_Cy = m1*0+b1
+    R1_Cx = (-b1)/m1
+    R2_Cy = m2*0+b2
+    R2_Cx = (-b2)/m2
 
     U = f"recta 1 corte: X {R1_Cx} y {R1_Cy} \n recta 2 corte : x {R2_Cx} y {R2_Cy}"
 

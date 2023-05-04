@@ -52,8 +52,10 @@ def contenido(A1,A2):
             return "A1 no esta contenido en A2"
     return "A1 esta contenido en A2"
 
-def menu(A1,A2):
+def menu(CA1,CA2):
     while True:
+        A1 = CA1.copy()
+        A2 = CA2.copy()
         print("")
         print("Bienvenido al operador de conjuntos")
         print(" 1.union \n 2 interseccion \n 3.diferencia \n 4.diferencia simetrica")

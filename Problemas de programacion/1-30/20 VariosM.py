@@ -8,7 +8,6 @@ def interes(k,i):
 
     t = ((i*100)/k)/100 # conversion de interes en pesos a taza porcentual y luego a decimal
 
-    print(t)
 
     I_S =  k*t*7
 
